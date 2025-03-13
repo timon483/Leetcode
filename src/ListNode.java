@@ -1,3 +1,9 @@
+/**
+ * You are given two non-empty linked lists representing two non-negative integers.
+ * The digits are stored in reverse order, and each of their nodes contains a single digit.
+ * Add the two numbers and return the sum as a linked list.
+ */
+
 public class ListNode {
 
      int val;
@@ -7,12 +13,7 @@ public class ListNode {
      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 
      public static ListNode addTwo(ListNode l1, ListNode l2) {
-
-
-          ListNode result = sumTwoNodes(l1, l2, 0);
-
-          return result;
-
+          return sumTwoNodes(l1, l2, 0);
      }
 
      public static ListNode sumTwoNodes(ListNode l1, ListNode l2, int rest) {

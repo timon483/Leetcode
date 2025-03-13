@@ -2,6 +2,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 
+/**
+ * Given a string s, find the length of the longest substring without duplicate characters.
+ */
 public class LengthOfSubstringWithNoDuplicates {
 
     public static int lengthOfLongestSubstring(String s) {
