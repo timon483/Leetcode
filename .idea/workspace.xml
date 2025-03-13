@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331fe55b-9e36-4c80-a088-ce10ccc75189" name="Changes" comment="LC-001: update gitignore" />
+    <list default="true" id="331fe55b-9e36-4c80-a088-ce10ccc75189" name="Changes" comment="LC-001: refactor ListNode">
+      <change afterPath="$PROJECT_DIR$/src/LengthOfSubstringWithNoDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +41,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ListNode">
+  <component name="RunManager" selected="Application.LengthOfSubstringWithNoDuplicates">
+    <configuration name="LengthOfSubstringWithNoDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LengthOfSubstringWithNoDuplicates" />
+      <module name="Leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ListNode" />
       <module name="Leetcode" />
@@ -62,6 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfSubstringWithNoDuplicates" />
         <item itemvalue="Application.ListNode" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MedianOfArray" />
@@ -92,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1741869504790</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="LC-001: refactor ListNode">
+      <created>1741870051882</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741870051882</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,37 +129,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LC-001: update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="LC-001: update gitignore" />
+    <MESSAGE value="LC-001: refactor ListNode" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC-001: refactor ListNode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>71</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>59</line>
+          <line>10</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
